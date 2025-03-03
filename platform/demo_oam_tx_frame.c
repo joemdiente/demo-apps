@@ -24,7 +24,7 @@
 
 */
 
-#include <vtss_api.h>
+#include "microchip/ethernet/switch/api.h"
 #include "demo_oam.h"
 
 #ifdef VTSS_FEATURE_OAM

@@ -25,7 +25,7 @@
 */
 
 #include "demo_api.h"
-#include <vtss_api.h>
+#include "microchip/ethernet/switch/api.h"
 
 
 const vtss_inst_t  inst = NULL;

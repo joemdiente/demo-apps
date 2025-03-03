@@ -26,7 +26,7 @@
 #ifndef _DEMO_OAM_H_
 #define _DEMO_OAM_H_
 
-#include <vtss_api.h>
+#include "microchip/ethernet/switch/api.h"
 #include <icli_api.h>
 
 

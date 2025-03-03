@@ -32,6 +32,7 @@
 #include "demo.h"
 #include "demo_trace.h"
 
+#define VTSS_ALLOC_MODULE_ID VTSS_MODULE_ID_DEMO
 
 #define DEMO_MESSAGE_SOMETHING 0
 #define DEMO_MESSAGE_ELSE      1

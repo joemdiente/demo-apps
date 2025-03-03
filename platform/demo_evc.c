@@ -33,7 +33,7 @@
 
 #ifdef VTSS_FEATURE_EVC_PORT_EVC
 
-#include <vtss_api.h>
+#include "microchip/ethernet/switch/api.h"
 
 static int nni_port = 2-1;
 static mesa_inst_t  inst = NULL;

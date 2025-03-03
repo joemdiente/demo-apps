@@ -58,7 +58,7 @@
 
 
 #include <vtss/appl/types.h>
-#include <vtss_api.h>
+#include "microchip/ethernet/switch/api.h"
 
 #include "demo_api.h"
 #include "demo.h"

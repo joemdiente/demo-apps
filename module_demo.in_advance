@@ -31,7 +31,7 @@ DIR_demo_platform := $(DIR_demo)/platform
 DIR_demo_html     := $(DIR_demo_platform)/html
 
 
-MODULE_ID_demo := 148 # = VTSS_MODULE_ID_DEMO. If you have TAGS on the files,
+MODULE_ID_demo := 167 # = VTSS_MODULE_ID_DEMO. If you have TAGS on the files,
                       # then search for VTSS_MODULE_ID_NONE, and add
                       # VTSS_MODULE_ID_DEMO just above it, and set
                       # MODULE_ID_demo the the same number.

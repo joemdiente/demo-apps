@@ -93,12 +93,11 @@ static mesa_rc demo_os_tx_method_1(mesa_port_no_t port_no, mesa_mac_t dmac)
     mesa_rc rc;
     void *p;
     vtss_common_framelen_t length=64;
-    vtss_common_bufref_t context;
 
     T_IG(TRACE_GRP_TX, "port_no=%d", port_no + 1);
 
     // (1) --- Allocate PDU
-    p = vtss_os_alloc_xmit(port_no, length, &context);
+    p = vtss_os_alloc_xmit(port_no, length);
     if (!p) {
       T_WG(TRACE_GRP_TX, "Failed to allocate TX buffer");
       return MESA_RC_ERROR;
@@ -112,7 +111,7 @@ static mesa_rc demo_os_tx_method_1(mesa_port_no_t port_no, mesa_mac_t dmac)
     if (rc) return rc;
 
     // (4) --- And sent frame.
-    rc = vtss_os_xmit(port_no, p, length, context);
+    rc = vtss_os_xmit(port_no, p, length);
         
     return rc;
 }

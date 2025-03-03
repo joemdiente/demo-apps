@@ -27,7 +27,7 @@
 //#include <vtss_types.h>
 
 #include <vtss/appl/types.h>
-#include <vtss_api.h>
+#include "microchip/ethernet/switch/api.h"
 /* #include <cyg/infra/diag.h> */
 
 #include "demo_api.h"
